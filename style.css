@@ -1,18 +1,12 @@
-.outer-layer {
+/* .moon {
+  height: 450px;
+  width: 850px;
   align-items: center;
   display: block;
   margin-left: auto;
   margin-right: auto;
-}
-
-.moon {
-  height: 450px;
-  width: 850px;
-  /* align-items: center;d
-  display: block;
-  margin-left: auto;
-  margin-right: auto; */
-}
+  margin-bottom: none;
+} */
 
 body {
   font-family: "Overpass", sans-serif;
@@ -21,14 +15,91 @@ body {
 .main {
   display: flex;
   align-items: center;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
 }
 
 .social {
   list-style: none;
+  position: relative;
+  min-height: 290px;
 }
 
 .office-info {
   list-style: none;
+  position: relative;
+  min-height: 290px;
+}
+
+.contact-us {
+  list-style: none;
+  position: relative;
+  min-width: none;
+  min-height: 290px;
+}
+
+.top {
+  font-size: 28px;
+}
+
+.container {
+  display: flex;
+  background-image: url(moon.jpg);
+  background-size: 850px;
+  flex-wrap: wrap;
+  width: 850px;
+  height: 450px;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.centered {
+  font-size: 80px;
+  color: #32506f;
+}
+
+.whole {
+  width: 850px;
+  height: 450px;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.button-2 {
+  background-color: rgba(51, 51, 51, 0.05);
+  border-radius: 8px;
+  border-width: 0;
+  color: #333333;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 10px 12px;
+  text-align: center;
+  transition: all 200ms;
+  vertical-align: baseline;
+  white-space: nowrap;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-top: 5px;
+}
+
+.name {
+  width: 140px;
+}
+
+.message {
+  width: 140px;
+  height: 140px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  position: static;
 }
